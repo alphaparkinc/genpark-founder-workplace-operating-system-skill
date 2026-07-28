@@ -1,0 +1,31 @@
+{
+  "name": "genpark-founder-workplace-operating-system-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Founder-centric AI operating system for task execution, pitch prep & resource allocation.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "founder-os",
+    "executive-assistant",
+    "pitch-prep",
+    "ph-july29"
+  ],
+  "inputs": {
+    "weekly_goals": {
+      "type": "array"
+    },
+    "burn_rate_usd": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "daily_priority_stack": {
+      "type": "array"
+    },
+    "runway_months": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
